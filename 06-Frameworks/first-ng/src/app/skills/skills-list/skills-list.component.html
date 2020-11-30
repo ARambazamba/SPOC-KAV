@@ -1,0 +1,7 @@
+<h3>The skills</h3>
+
+<div style="display: flex; flex-direction: column">
+  <div *ngFor="let s of skills | async">
+    {{ s.name }}
+  </div>
+</div>
